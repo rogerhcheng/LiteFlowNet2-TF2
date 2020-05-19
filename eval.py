@@ -52,9 +52,9 @@ out = model(tens1, tens2)
 # Load model
 saver = tf.train.Saver()
 if args.use_Sintel:
-    saver.restore(sess, "./LiteFlowNet2_Sintel_model")
+    saver.restore(sess, "./models/LiteFlowNet2_Sintel_model")
 else:
-    saver.restore(sess, "./LiteFlowNet2_Kitti_model")
+    saver.restore(sess, "./models/LiteFlowNet2_Kitti_model")
 
 # Load images
 inp1 = Image.open(args.img1)
