@@ -23,7 +23,7 @@ pip install --user tensorflow_addons==0.7.0
 and
 ```
 pip install --user tensorflow==2.2.0
-pip install --user tensorflow_addons==1.0.0
+pip install --user tensorflow_addons==0.10.0
 ```
 
 The included weights were converted from the original Caffe implementation [1]. Note that the Sintel and Kitti fine-tuned models have slightly different model architectures.
