@@ -55,7 +55,7 @@ Original materials are provided for research purposes only, and commercial use r
          title = {A {L}ightweight {O}ptical {F}low {CNN} - {R}evisiting {D}ata {F}idelity and {R}egularization},
          booktitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
          year = {2020},
-		 url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
+         url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
      }
 ```
 ```
@@ -79,6 +79,6 @@ Original materials are provided for research purposes only, and commercial use r
          author = {Roger Cheng},
          title = {{LiteFlowNet2} implementation with {TensorFlow 2}},
          year = {2020},
-         url = {https://github.com/rogerhcheng/}
+         url = {https://github.com/rogerhcheng/LiteFlowNet2-TF2}
     }
 ```
