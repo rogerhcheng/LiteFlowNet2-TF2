@@ -3,8 +3,8 @@
 
 This is my implementation of LiteFlowNet2 [1] using TensorFlow 2. 
 
-I used this implementation of the original LiteFlowNet [2] as my starting point: https://github.com/keeper121/liteflownet-tf2
-That implementation was inspired by this LiteFlowNet [3] PyTorch implemetation: https://github.com/sniklaus/pytorch-liteflownet
+I used this implementation of the original LiteFlowNet [2] as my starting point: https://github.com/keeper121/liteflownet-tf2  
+That implementation was inspired by this LiteFlowNet [3] PyTorch implemetation: https://github.com/sniklaus/pytorch-liteflownet  
 The original Caffe implementation of LiteFlowNet2 is here: https://github.com/twhui/LiteFlowNet2
 
 Please cite the paper accordingly and make sure to adhere to the licensing terms of the authors.
