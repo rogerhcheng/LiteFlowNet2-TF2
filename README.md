@@ -1,14 +1,14 @@
 # LiteFlowNet2-TF2
 
 
-This is my implementation of LiteFlowNet2 [1] using TensorFlow 2. 
+This is my TensorFlow 2 implementation of LiteFlowNet2 [1] (an improved version of the original LiteFlowNet [2]).
 
-I used this implementation of the original LiteFlowNet [2] as my starting point: https://github.com/keeper121/liteflownet-tf2  
-That implementation was inspired by this LiteFlowNet [3] PyTorch implemetation: https://github.com/sniklaus/pytorch-liteflownet  
+I used this implementation of the original LiteFlowNet [3] as my starting point: https://github.com/keeper121/liteflownet-tf2  
+That implementation was inspired by this LiteFlowNet [4] PyTorch implemetation: https://github.com/sniklaus/pytorch-liteflownet  
 The original Caffe implementation of LiteFlowNet2 is here: https://github.com/twhui/LiteFlowNet2
 
 Please cite the paper accordingly and make sure to adhere to the licensing terms of the authors.
-Should you be making use of this particular implementation, please acknowledge it appropriately [4].
+Should you be making use of this particular implementation, please acknowledge it appropriately [5].
 
 <a href="https://arxiv.org/abs/1903.07414" rel="Paper"><img src="http://www.arxiv-sanity.com/static/thumbs/1903.07414v3.pdf.jpg" alt="Paper" width="100%"></a>
 
@@ -59,7 +59,16 @@ Original materials are provided for research purposes only, and commercial use r
      }
 ```
 ```
-[2]  @misc{liteflownet-tf2,
+[2]  @inproceedings{Hui_CVPR_2018,
+         author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},
+         title = {{LiteFlowNet}: A Lightweight Convolutional Neural Network for Optical Flow Estimation},
+         booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+         year = {2018},
+		 url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
+     }
+```
+```
+[3]  @misc{liteflownet-tf2,
          author = {Vladimir Mikhelev},
          title = {{LiteFlowNet} inference realization with {Tensorflow 2}},
          year = {2020},
@@ -67,7 +76,7 @@ Original materials are provided for research purposes only, and commercial use r
     }
 ```
 ```
-[3]  @misc{pytorch-liteflownet,
+[4]  @misc{pytorch-liteflownet,
          author = {Simon Niklaus},
          title = {A Reimplementation of {LiteFlowNet} Using {PyTorch}},
          year = {2019},
@@ -75,7 +84,7 @@ Original materials are provided for research purposes only, and commercial use r
     }
 ```
 ```
-[4]  @misc{LiteFlowNet2-TF2,
+[5]  @misc{LiteFlowNet2-TF2,
          author = {Roger Cheng},
          title = {{LiteFlowNet2} implementation with {TensorFlow 2}},
          year = {2020},
