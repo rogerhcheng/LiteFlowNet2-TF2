@@ -64,7 +64,7 @@ Original materials are provided for research purposes only, and commercial use r
          title = {{LiteFlowNet}: A Lightweight Convolutional Neural Network for Optical Flow Estimation},
          booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
          year = {2018},
-		 url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
+         url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
      }
 ```
 ```
